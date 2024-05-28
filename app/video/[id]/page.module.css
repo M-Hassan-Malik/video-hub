@@ -1,0 +1,51 @@
+/* VideoPlayer.module.css */
+
+.videoPlayer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .videoContainer {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    width: 100%;
+  }
+  
+  .video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  .controls {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .controls button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .timeline {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .timeline input[type='range'] {
+    width: 100%;
+  }
+  
+  .time {
+    color: #fff;
+  }
+  
