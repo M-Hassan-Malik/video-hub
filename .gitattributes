@@ -1,0 +1,11 @@
+# Mark all CSS files as linguist-vendored
+*.css linguist-vendored
+
+# If you have any large or third-party CSS files, exclude them
+D:\video-streaming\app\video\[id]\page.module.css linguist-vendored
+
+# Ensure JavaScript files are counted
+*.js linguist-detectable
+*.jsx linguist-detectable
+*.ts linguist-detectable
+*.tsx linguist-detectable
